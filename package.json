@@ -1,17 +1,8 @@
 {
-  "name": "nodecg-vue-ts-template",
-  "version": "2.0.0",
-  "description": "Template for NodeCG bundles that use Vue.js and TypeScript.",
-  "homepage": "https://github.com/zoton2/nodecg-vue-ts-template#readme",
-  "bugs": {
-    "url": "https://github.com/zoton2/nodecg-vue-ts-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zoton2/nodecg-vue-ts-template.git"
-  },
+  "name": "gsrr2024-layout",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "zoton2",
+  "author": "Chien",
   "scripts": {
     "autofix": "run-s autofix:*",
     "autofix:browser": "eslint --fix --ext .ts,.vue src/dashboard && eslint --fix --ext .ts,.vue src/graphics",
@@ -62,17 +53,25 @@
     "vue-tsc": "^1.2.1"
   },
   "nodecg": {
-    "compatibleRange": "^1.9.0",
-    "dashboardPanels": [
-      {
-        "name": "example",
-        "title": "Example",
-        "file": "example.html"
-      }
-    ],
+    "compatibleRange": "^2.2.1",
     "graphics": [
       {
-        "file": "example.html",
+        "file": "singleHd.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "singleSd.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "setup.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "singleSDCom2.html",
         "width": 1920,
         "height": 1080
       }

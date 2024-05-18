@@ -1,0 +1,24 @@
+body {
+  background-repeat: no-repeat;
+  color: black;
+}
+
+@font-face {
+  font-family: 'RoundedBlack';
+  src: url(../fonts/rounded-mplus-1p-black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RoundedHeavy';
+  src: url(../fonts/rounded-mplus-1p-heavy.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RoundedBold';
+  src: url(../fonts/rounded-mplus-1p-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RoundedMedium';
+  src: url(../fonts/rounded-mplus-1p-medium.ttf) format('truetype');
+}

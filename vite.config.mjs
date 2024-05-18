@@ -23,7 +23,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@nodecg-vue-ts-template': `${__dirname}/src/`,
+      '@GsRR2024-layouts': `${__dirname}/src/`,
     },
   },
 });
