@@ -5,7 +5,6 @@ body {
 /*--------------------------------------------------
 timer
 --------------------------------------------------*/
-
 .time {
   position: absolute;
   width: 258px;
@@ -102,7 +101,7 @@ player
   height: 80px;
   left: 160px;
   top: 460px;
-  font-size: clamp(32px, 1vw, 40px);
+  font-size: clamp(30px, 32px, 40px);
   /*font-size: 32px;*/
   font-family: 'RoundedMedium';
   border: 1px solid;
