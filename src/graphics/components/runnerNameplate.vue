@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { useReplicant } from 'nodecg-vue-composable';
-import { computed, onMounted, Ref, ref, registerRuntimeCompiler } from 'vue';
+import { computed, ComputedRef, onUpdated, Ref, ref } from 'vue';
 import { RunDataActiveRun, Timer } from '@GsRR2024-layouts/types/schemas/speedcontrol';
 import { SNS } from '@GsRR2024-layouts/types/schemas/Sns';
 import * as util from '../util/format';
-import e from 'express';
 
 interface Props {
   index: number;
@@ -19,7 +18,6 @@ const sns: SNS = {
 
 const stringArray: (string | undefined)[] = [];
 const player = ref(stringArray);
-
 let isShow: Ref<number> = ref(0);
 
 let timerId = setInterval(() => {
@@ -41,16 +39,16 @@ let timerId = setInterval(() => {
       isShow.value++;
       break;
     case sns.twitch:
-      if (twitter.value =='-' && youtube.value == '-') {
+      if (twitter.value =='' && youtube.value == '') {
         isShow.value = 0;
-      } else if  (twitter.value == '-'){
+      } else if (twitter.value == ''){
         isShow.value = 3;
       } else {
         isShow.value++;
       }
       break;
     case sns.twitter:
-      if (youtube.value == '-') {
+      if (youtube.value == '') {
         isShow.value = 0;
       } else {
         isShow.value++;
@@ -66,9 +64,7 @@ let timerId = setInterval(() => {
   //30000 = 30秒
 
 const props = defineProps<Props>();
-
 const runDataActiveRun = useReplicant<RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');
-
 const timer = useReplicant<Timer>('timer', 'nodecg-speedcontrol');
 
 const name = computed(() => {

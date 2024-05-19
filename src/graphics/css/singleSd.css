@@ -97,14 +97,12 @@ player
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 320px;
+  width: 330px;
   height: 80px;
   left: 160px;
   top: 460px;
-  font-size: clamp(30px, 32px, 40px);
-  /*font-size: 32px;*/
-  font-family: 'RoundedMedium';
-  border: 1px solid;
+  font-size: 33.0px;
+  font-family: 'RoundedBold';
 }
 
 .player1.clear .player_time {
@@ -116,12 +114,12 @@ player
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 320px;
+  width: 310px;
   height: 80px;
-  left: 160px;
+  left: 165px;
   top: 460px;
-  font-size: 36px;
-  font-family: 'RoundedMedium';
+  font-size: 34px;
+  font-family: 'RoundedBold';
   text-align: center;
 }
 

@@ -20,5 +20,5 @@ useHead({ title: 'doubleSD' });
 <style>
 @import url('../css/reset.css');
 @import url('../css/common.css');
-@import url('../css/doubleHd.css');
+@import url('../css/doubleSd.css');
 </style>
