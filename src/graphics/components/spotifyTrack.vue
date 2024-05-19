@@ -14,7 +14,8 @@ const artists = computed(() => spotifyPlayingTrack?.data?.artists.join(', ') || 
 </script>
 
 <template>
+  <!--
   <div class="bgm">
     <span>{{ trackName }} - {{ artists }}</span>
-  </div>
+  </div>-->
 </template>

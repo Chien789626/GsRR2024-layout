@@ -55,7 +55,7 @@ const upcomingStartIn = computed(() => {
 </script>
 
 <template>
-  <div id="next">NEXT</div>
+  <!--<div id="next">NEXT</div>-->
   <div class="mokuji">
     <UpnextSchedule :run-data="upnextRun" />
     <OndeckSchedule

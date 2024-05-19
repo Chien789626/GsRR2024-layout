@@ -89,9 +89,9 @@ gameinfo
   justify-content: center;
   position: absolute;
   width: 450px;
-  height: 40px;
+  height: 78px;
   left: 1130px;
-  top: 930px;
+  top: 910px;
   font-size: 28px;
   font-family: 'RoundedMedium';
 }
@@ -104,12 +104,13 @@ player
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 260px;
+  width: 280px;
   height: 80px;
-  left: 240px;
+  left: 245px;
   top: 680px;
-  font-size: 33.0px;
+  font-size: 33px;
   font-family: 'RoundedBold';
+  border: 1px solid;
 }
 
 .player1 .sns {
@@ -119,7 +120,7 @@ player
   position: absolute;
   width: 280px;
   height: 80px;
-  left: 240px;
+  left: 245px;
   top: 680px;
   font-size: 34px;
   font-family: 'RoundedBold';
@@ -149,7 +150,7 @@ player2
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 280px;
+  width: 275px;
   height: 80px;
   left: 1480px;
   top: 680px;
@@ -162,7 +163,7 @@ player2
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 280px;
+  width: 275px;
   height: 80px;
   left: 1480px;
   top: 680px;

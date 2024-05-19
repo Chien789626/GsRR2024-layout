@@ -7,10 +7,10 @@ timer
 --------------------------------------------------*/
 .time {
   position: absolute;
-  width: 258px;
+  width: 278px;
   height: 130px;
   left: 145px;
-  top: 715px;
+  top: 700px;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ timer
 
 .est {
   position: relative;
-  top: 8px;
+  top: 4px;
 }
 
 /*--------------------------------------------------
@@ -63,10 +63,10 @@ gameinfo
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 1060px;
+  width: 1050px;
   height: 78px;
-  left: 65px;
-  top: 910px;
+  left: 75px;
+  top: 900px;
 }
 
 .gametitle span {
@@ -81,9 +81,9 @@ gameinfo
   justify-content: center;
   position: absolute;
   width: 450px;
-  height: 40px;
-  left: 1130px;
-  top: 930px;
+  height: 78px;
+  left: 1140px;
+  top: 900px;
   font-size: 28px;
   font-family: 'RoundedMedium';
 }
@@ -99,8 +99,8 @@ player
   position: absolute;
   width: 330px;
   height: 80px;
-  left: 160px;
-  top: 460px;
+  left: 165px;
+  top: 440px;
   font-size: 33.0px;
   font-family: 'RoundedBold';
 }
@@ -114,13 +114,12 @@ player
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 310px;
+  width: 330px;
   height: 80px;
   left: 165px;
-  top: 460px;
+  top: 440px;
   font-size: 34px;
   font-family: 'RoundedBold';
-  text-align: center;
 }
 
 .twitch,
@@ -164,8 +163,8 @@ Commentator
   position: absolute;
   width: 330px;
   height: 80px;
-  left: 160px;
-  top: 565px;
+  left: 165px;
+  top: 545px;
   font-size: 33px;
   font-family: 'RoundedBold';
 }
@@ -177,8 +176,8 @@ Commentator
   position: absolute;
   width: 330px;
   height: 80px;
-  left: 160px;
-  top: 565px;
+  left: 165px;
+  top: 545px;
   font-size: 34px;
   font-family: 'RoundedBold';
 }
