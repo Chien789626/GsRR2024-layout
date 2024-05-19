@@ -60,8 +60,8 @@ let timerId = setInterval(() => {
     default:
       isShow.value++;
   }
-  }, 5000);
-  //30000 = 30秒
+  }, 30000);
+  //5000 = 5秒
 
 const props = defineProps<Props>();
 const runDataActiveRun = useReplicant<RunDataActiveRun>('runDataActiveRun', 'nodecg-speedcontrol');

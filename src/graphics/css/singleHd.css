@@ -7,10 +7,10 @@ timer
 --------------------------------------------------*/
 .time {
   position: absolute;
-  width: 360px;
+  width: 258px;
   height: 130px;
-  left: 130px;
-  top: 275px;
+  left: 145px;
+  top: 715px;
   text-align: center;
 }
 
@@ -19,18 +19,16 @@ timer
 }
 
 .time > span {
-  font-size: 92px;
-  font-family: 'GenEiMGothic2-Heavy';
+  font-size: 62px;
+  font-family: 'RoundedMedium';
 }
 
 .time > span.stopped {
-  color: white;
-  -webkit-text-stroke: 2.7px #006d98;
+  color: black;
 }
 
 .time > span.running {
-  color: white;
-  -webkit-text-stroke: 2.7px #006d98;
+  color: black;
 }
 
 .time > span.paused {
@@ -47,35 +45,34 @@ timer
 .mes {
   font-size: 36px;
   line-height: 80%;
-  font-family: 'GenEiMGothic2-Heavy';
-  color: white;
-  -webkit-text-stroke: 2px #006d98;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  font-family: 'RoundedMedium';
+  color: black;
 }
 
 .est {
-  padding-left: 15px;
+  position: relative;
+  top: 8px;
 }
 
 /*--------------------------------------------------
 gameinfo
 --------------------------------------------------*/
+
 .gametitle {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 1260px;
-  height: 100px;
-  left: 635px;
-  top: 830px;
+  width: 1060px;
+  height: 78px;
+  left: 65px;
+  top: 910px;
 }
 
 .gametitle span {
   position: relative;
-  font-size: 52px;
-  font-family: 'GenEiMGothic2-Black';
+  font-size: 40px;
+  font-family: 'RoundedMedium';
 }
 
 .runcategory {
@@ -83,80 +80,47 @@ gameinfo
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 850px;
+  width: 450px;
   height: 40px;
-  left: 680px;
-  top: 975px;
-  font-size: 34px;
-  font-family: 'GenEiMGothic2-Heavy';
-}
-
-.runsystem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 315px;
-  height: 40px;
-  left: 1595px;
-  top: 975px;
-  font-size: 34px;
-  font-family: 'GenEiMGothic2-Heavy';
+  left: 1130px;
+  top: 930px;
+  font-size: 28px;
+  font-family: 'RoundedMedium';
 }
 
 /*--------------------------------------------------
 player
 --------------------------------------------------*/
-.player1 .nameplate {
-  position: absolute;
-  width: 573px;
-  height: 60px;
-  left: 30px;
-  top: 845px;
-  background-image: url(../images/icon/underline.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
 
 .player1 .player_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  width: 505px;
-  height: 60px;
-  left: 90px;
-  top: 840px;
-}
-
-.player1 .player_name > span {
-  display: inline-block;
-  width: 505px;
-  height: 60px;
-  font-size: 40px;
-  font-family: 'GenEiMGothic2-Heavy';
-  text-align: center;
-}
-
-.controller {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  padding-left: 5px;
-  vertical-align: middle;
-  background-size: contain;
-}
-
-.player1 .sns {
-  position: absolute;
-  width: 505px;
-  height: 60px;
-  left: 90px;
-  top: 840px;
-  font-size: 36px;
-  font-family: 'GenEiMGothic2-Heavy';
-  text-align: center;
+  width: 330px;
+  height: 80px;
+  left: 160px;
+  top: 460px;
+  font-size: 33.0px;
+  font-family: 'RoundedBold';
 }
 
 .player1.clear .player_time {
   opacity: 0;
+}
+
+.player1 .sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 310px;
+  height: 80px;
+  left: 165px;
+  top: 460px;
+  font-size: 34px;
+  font-family: 'RoundedBold';
+  text-align: center;
 }
 
 .twitch,
@@ -169,93 +133,52 @@ player
 .twitch_icon > img {
   vertical-align: middle;
   margin-right: 15px;
-  width: 34px;
-  height: 34px;
+  width: 35px;
+  height: 35px;
 }
 
 .twitter_icon > img {
   vertical-align: middle;
   margin-right: 15px;
-  width: 34px;
-  height: 34px;
+  width: 35px;
+  height: 35px;
+  transform: translateY(-3px);
 }
 
 .youtube_icon > img {
   vertical-align: middle;
   margin-right: 15px;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
+  transform: translateY(-4px);
 }
 
 /*--------------------------------------------------
 Commentator
 --------------------------------------------------*/
 
-.commentator1 .nameplate {
-  position: absolute;
-  width: 573px;
-  height: 60px;
-  left: 30px;
-  top: 925px;
-  background-image: url(../images/icon/underline.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
 .commentator1 .commentator_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  width: 565px;
-  height: 60px;
-  left: 90px;
-  top: 920px;
-}
-
-.commentator1 .commentator_name > span {
-  display: inline-block;
-  width: 505px;
-  height: 60px;
-  font-size: 40px;
-  font-family: 'GenEiMGothic2-Heavy';
-  text-align: center;
-}
-
-.microphone {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  padding-left: 5px;
-  vertical-align: 3px;
-  background-size: contain;
+  width: 330px;
+  height: 80px;
+  left: 160px;
+  top: 565px;
+  font-size: 33px;
+  font-family: 'RoundedBold';
 }
 
 .commentator1 .sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  width: 505px;
-  height: 60px;
-  left: 90px;
-  top: 920px;
-  font-size: 36px;
-  font-family: 'GenEiMGothic2-Heavy';
-  text-align: center;
-}
-
-/*--------------------------------------------------
-sponsor logo
---------------------------------------------------*/
-.container {
-  position: relative;
-  width: 175px;
-  height: 160px;
-}
-
-.image1 {
-  position: absolute;
-  top: 55px;
-  left: 420px;
-}
-
-.image2 {
-  position: absolute;
-  top: 70px;
-  left: 400px;
+  width: 330px;
+  height: 80px;
+  left: 160px;
+  top: 565px;
+  font-size: 34px;
+  font-family: 'RoundedBold';
 }

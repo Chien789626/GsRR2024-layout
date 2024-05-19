@@ -26,11 +26,9 @@ const runners = computed(() => {
       {{ runData?.game }}
     </div>
     <div class="category_runner" v-if="props.showCategoryRunner">
-      <span class="category"
-        >{{ runData?.category }}</span>
-        <span> {{ runData?.estimate }}</span>
-        <span class="runner">
-          走者 {{ runners }}</span>
+      <span class="category">{{ runData?.category }}</span>
+      <span> {{ runData?.estimate }}</span>
+      <span class="runner">{{ runners }}</span>
     </div>
   </div>
 </template>
