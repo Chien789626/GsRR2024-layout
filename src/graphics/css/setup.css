@@ -83,6 +83,16 @@ Schedule
   top: 110px;
 }
 
+/**
+.category_runner .category::before {
+  content: '(';
+}
+
+.category_runner .category::after {
+  content: ')';
+}
+**/
+
 .bgm {
   position: absolute;
   display: flex;
