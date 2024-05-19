@@ -64,6 +64,6 @@ const upcomingStartIn = computed(() => {
       :class="`next${index + 2}`"
       :run-data="run"
       :upcoming-start-in="upcomingStartIn[index]"
-      :show-category-runner="index < 1"/>
+      :show-category-runner="index < 2"/>
   </div>
 </template>

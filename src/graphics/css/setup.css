@@ -10,42 +10,77 @@ Schedule
   top: 130px;
   left: 865px;
   font-size: 58px;
+  font-family: 'RoundedHeavy';
+}
+
+.mokuji {
+  position: absolute;
+  width: 975px;
+  height: 835px;
+  top: 107px;
+  left: 830px;
+  font-family: 'RoundedHeavy';
 }
 
 .next1 {
   position: relative;
   width: 900px;
-  height: 180px;
-  top: 270px;
-  left: 865px;
+  height: 210px;
+  top: 170px;
+  left: 35px;
 }
 
-.next1 .title {
-  font-size: 32px;
-  font-family: 'RoundedBlack';
+.next2 {
+  position: relative;
+  width: 900px;
+  height: 210px;
+  top: 185px;
+  left: 35px;
+}
+
+.next3 {
+  position: relative;
+  width: 900px;
+  height: 210px;
+  top: 215px;
+  left: 33px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
 }
 
 .category_runner {
-  width: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
   height: 60px;
+  font-size: 36px;
 }
-
-/**
-.category_runner .category::before {
-  content: '(';
-}
-
-.category_runner .category::after {
-  content: ')';
-}
-**/
 
 .category_runner .category,
 .category_runner .runner {
-  font-size: 24px;
-  font-family: 'RoundedBlack';
+  font-size: 36px;
   overflow-wrap: break-word;
   word-break: keep-all;
+}
+
+.category_runner .category {
+  padding-right: 10px;
+}
+
+.category_runner .runner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 900px;
+  height: 60px;
+  top: 110px;
 }
 
 .bgm {
@@ -61,5 +96,5 @@ Schedule
 .bgm > span {
   position: relative;
   font-size: 28px;
-  font-family: 'RoundedBlack';
+  font-family: 'RoundedHeavy';
 }

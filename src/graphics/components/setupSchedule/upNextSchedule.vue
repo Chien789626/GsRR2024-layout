@@ -26,8 +26,8 @@ const runners = computed(() => {
     </div>
     <div v-if="props.runData?.category != '-'" class="category_runner">
       <span class="category">{{ props.runData?.category }}</span>
-      <span class="est"> / {{ props.runData?.estimate }}</span>
-      <div class="runner">走者  {{ runners }}</div>
+      <span class="est">/ {{ props.runData?.estimate }}</span>
+      <span class="runner">{{ runners }}</span>
     </div>
   </div>
 </template>
