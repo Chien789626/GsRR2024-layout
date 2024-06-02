@@ -11,9 +11,9 @@ timer
   justify-content: center;
   position: absolute;
   width: 400px;
-  height: 80px;
+  height: 93px;
   left: 640px;
-  top: 775px;
+  top: 768px;
   text-align: center;
 }
 
@@ -44,23 +44,18 @@ timer
   -webkit-text-stroke: 2.7px #a7a31e;
 }
 
-.est,
-.mes {
-  font-size: 36px;
-  line-height: 80%;
-  font-family: 'RoundedMedium';
-  color: black;
-}
-
 .est {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   width: 200px;
-  height: 80px;
+  height: 93px;
   left: 430px;
   top: -1px;
+  font-size: 36px;
+  line-height: 80%;
+  font-family: 'RoundedMedium';
 }
 
 /*--------------------------------------------------

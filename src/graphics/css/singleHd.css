@@ -8,18 +8,19 @@ timer
 .time {
   position: absolute;
   width: 278px;
-  height: 130px;
+  height: 158px;
   left: 145px;
-  top: 700px;
+  top: 683px;
   text-align: center;
 }
 
-.time p {
-  margin-bottom: 0;
-}
-
 .time > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 62px;
+  height: 99px;
   font-family: 'RoundedMedium';
 }
 
@@ -41,17 +42,16 @@ timer
   -webkit-text-stroke: 2.7px #a7a31e;
 }
 
-.est,
-.mes {
+.est {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 4px;
+  height: 55px;
   font-size: 36px;
   line-height: 80%;
   font-family: 'RoundedMedium';
-  color: black;
-}
-
-.est {
-  position: relative;
-  top: 4px;
 }
 
 /*--------------------------------------------------

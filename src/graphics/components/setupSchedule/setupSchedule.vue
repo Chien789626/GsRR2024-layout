@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useReplicant } from 'nodecg-vue-composable';
-import { computed } from 'vue';
+import { computed, Ref, ref } from 'vue';
 import type {
   RunDataActiveRunSurrounding,
   RunDataArray,
@@ -52,6 +52,21 @@ const upcomingStartIn = computed(() => {
   startInArray.push(util.formatSecondsToStartInTime(thirdRunStartIn));
   return startInArray;
 });
+
+let isShow: Ref<number> = ref(0);
+setInterval(() => {
+  switch (isShow.value) {
+    case 0:
+      isShow.value++;
+      break;
+    case 1:
+      isShow.value++;
+      break;
+    case 2:
+      isShow.value = 0;
+  }
+  }, 30000);
+  //5000 = 5秒
 </script>
 
 <template>
@@ -65,5 +80,10 @@ const upcomingStartIn = computed(() => {
       :run-data="run"
       :upcoming-start-in="upcomingStartIn[index]"
       :show-category-runner="index < 2"/>
+  </div>
+  <div class="marquee">
+    <div v-show="isShow === 0" class="marquee-inner">これは1つ目のメッセージです。これは1つ目のメッセージです。これは1つ目のメッセージです。</div>
+    <div v-show="isShow === 1" class="marquee-inner">これは2つ目のメッセージです。これは2つ目のメッセージです。これは2つ目のメッセージです。</div>
+    <div v-show="isShow === 2" class="marquee-inner">これは3つ目のメッセージです。これは3つ目のメッセージです。これは3つ目のメッセージです。</div>
   </div>
 </template>

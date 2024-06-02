@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
-import SpotifyTrack from '../components/spotifyTrack.vue';
 import SetupSchedule from '../components/setupSchedule/setupSchedule.vue';
 
 useHead({ title: 'Setup' });
@@ -9,7 +8,6 @@ useHead({ title: 'Setup' });
 <template>
   <div class="next_container" />
   <SetupSchedule />
-  <SpotifyTrack />
 </template>
 
 <style>

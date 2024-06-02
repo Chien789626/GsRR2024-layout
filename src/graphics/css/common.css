@@ -22,3 +22,8 @@ body {
   font-family: 'RoundedMedium';
   src: url(../fonts/rounded-mplus-1p-medium.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'KomorebiGothic';
+  src: url(../fonts/komorebi-gothic.ttf) format('truetype');
+}

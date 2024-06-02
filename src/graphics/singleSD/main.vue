@@ -4,6 +4,7 @@ import gameInfo from '../components/gameInfo.vue';
 import runnerNameplate from '../components/runnerNameplate.vue';
 import commentatorNameplate from '../components/commentatorNameplate.vue';
 import timerAndEstimate from '../components/timerAndEstimate.vue';
+import textInfo from '../components/textInfo.vue'
 useHead({ title: 'singleSD' });
 </script>
 
@@ -12,6 +13,7 @@ useHead({ title: 'singleSD' });
   <gameInfo />
   <runnerNameplate class="player1" :index="0" />
   <commentatorNameplate class="commentator1" :index="0" :index2="0" />
+  <textInfo />
 </template>
 
 <style>

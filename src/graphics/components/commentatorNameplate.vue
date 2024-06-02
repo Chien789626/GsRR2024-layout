@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useReplicant } from 'nodecg-vue-composable';
-import { computed, onMounted, onUnmounted, Ref, ref } from 'vue';
-import { RunDataActiveRun, Timer } from '@GsRR2024-layouts/types/schemas/speedcontrol';
+import { computed, Ref, ref } from 'vue';
+import { RunDataActiveRun } from '@GsRR2024-layouts/types/schemas/speedcontrol';
 import { SNS } from '@GsRR2024-layouts/types/schemas/Sns';
 
 interface Props {
