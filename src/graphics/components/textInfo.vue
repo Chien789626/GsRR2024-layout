@@ -32,14 +32,14 @@
   position: absolute;
   text-align: center;
   bottom: 5px;
-  animation: loop 30s linear infinite;
+  animation: loop 120s linear infinite;
   /* border: 1px solid red; */
 }
 
 .loop2 {
   position: absolute;
   width: 100%;
-  animation: loop 30s -15s linear infinite;
+  animation: loop 120s -60s linear infinite;
   /* border: 1px solid rgb(0, 68, 255); */
 }
 
