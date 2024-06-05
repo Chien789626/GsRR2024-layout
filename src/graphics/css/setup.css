@@ -5,14 +5,6 @@ body {
 /*--------------------------------------------------
 Schedule
 --------------------------------------------------*/
-#next {
-  position: absolute;
-  top: 130px;
-  left: 865px;
-  font-size: 58px;
-  font-family: 'RoundedHeavy';
-}
-
 .mokuji {
   position: absolute;
   width: 975px;
@@ -20,59 +12,65 @@ Schedule
   top: 107px;
   left: 830px;
   font-family: 'RoundedHeavy';
+  /* border: 1px solid black; */
 }
 
 .next1 {
-  position: relative;
-  width: 900px;
-  height: 210px;
-  top: 170px;
-  left: 35px;
+  position: absolute;
+  width: 892px;
+  height: 255px;
+  top: 100px;
+  left: 38px;
+  /* border: 1px solid red; */
+  padding-top: 50px;
 }
 
 .next2 {
-  position: relative;
-  width: 900px;
-  height: 210px;
-  top: 185px;
-  left: 35px;
+  position: absolute;
+  width: 892px;
+  height: 236px;
+  top: 360px;
+  left: 38px;
+  padding-top: 35px;
+  /* border: 1px solid blue; */
 }
 
 .next3 {
-  position: relative;
-  width: 900px;
-  height: 210px;
-  top: 215px;
-  left: 33px;
+  position: absolute;
+  width: 892px;
+  height: 232px;
+  top: 601px;
+  left: 38px;
+  padding-top: 35px;
+  /* border: 1px solid violet; */
 }
 
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 35px;
+  text-align: center;
+  font-size: 34px;
+  /* border: 1px solid salmon; */
 }
 
 .category_runner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 900px;
-  height: 60px;
   font-size: 36px;
+  text-align: center;
+  /* border: 1px dotted darkblue; */
 }
 
+/*
 .category_runner .category,
 .category_runner .runner {
   font-size: 36px;
   overflow-wrap: break-word;
   word-break: keep-all;
 }
+*/
 
 .category_runner .category {
   padding-right: 10px;
 }
 
+/*
 .category_runner .runner {
   display: flex;
   align-items: center;
@@ -82,16 +80,7 @@ Schedule
   height: 60px;
   top: 110px;
 }
-
-/**
-.category_runner .category::before {
-  content: '(';
-}
-
-.category_runner .category::after {
-  content: ')';
-}
-**/
+*/
 
 /*--------------------------------------------------
 Schedule

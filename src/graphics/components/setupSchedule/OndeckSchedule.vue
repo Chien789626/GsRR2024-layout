@@ -28,7 +28,7 @@ const runners = computed(() => {
     <div class="category_runner" v-if="props.showCategoryRunner">
       <span class="category">{{ runData?.category }}</span>
       <span class="est"> {{ runData?.estimate }}</span>
-      <span class="runner">{{ runners }}</span>
+      <p class="runner">{{ runners }}</p>
     </div>
   </div>
 </template>

@@ -82,8 +82,19 @@ setInterval(() => {
       :show-category-runner="index < 2"/>
   </div>
   <div class="marquee">
-    <div v-show="isShow === 0" class="marquee-inner">これは1つ目のメッセージです。これは1つ目のメッセージです。これは1つ目のメッセージです。</div>
-    <div v-show="isShow === 1" class="marquee-inner">これは2つ目のメッセージです。これは2つ目のメッセージです。これは2つ目のメッセージです。</div>
-    <div v-show="isShow === 2" class="marquee-inner">これは3つ目のメッセージです。これは3つ目のメッセージです。これは3つ目のメッセージです。</div>
+    <div v-show="isShow === 0" class="marquee-inner">
+      <span>SNSハッシュタグ </span>
+      <span style="color:Red">＃ガストRTAリレー</span>
+      <span> で走者に感想を送ろう！</span>
+    </div>
+    <div v-show="isShow === 1" class="marquee-inner">
+      <span>イベントスケジュールが知りたい？ </span>
+      <span style="color:Red">!schedule</span>
+      <span> をチャットに送信！</span>
+    </div>
+    <div v-show="isShow === 2" class="marquee-inner">
+      <span>待機画面の素敵なBGMはこちら！ RYU ITO - </span>
+      <span style="color:Red">https://ryu110.com/</span>
+    </div>
   </div>
 </template>
