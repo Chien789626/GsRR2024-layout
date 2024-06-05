@@ -3,7 +3,7 @@
 
 <template>
   <div class="marquee">
-    <div class="loop">
+    <div class="loop wspace">
       <span>SNSハッシュタグ </span>
       <span style="color:Red">＃ガストRTAリレー</span>
       <span> で走者に感想を送ろう！</span>
@@ -30,15 +30,21 @@
 .loop {
   width: 100%;
   position: absolute;
+  text-align: center;
   bottom: 5px;
-  animation: loop 120s linear infinite;
+  animation: loop 30s linear infinite;
   /* border: 1px solid red; */
 }
 
 .loop2 {
   position: absolute;
   width: 100%;
-  animation: loop 120s -60s linear infinite;
+  animation: loop 30s -15s linear infinite;
+  /* border: 1px solid rgb(0, 68, 255); */
+}
+
+.wspace{
+  padding-right: 0px;
 }
 
 @keyframes loop {
